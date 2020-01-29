@@ -1,0 +1,664 @@
+body
+{
+	margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#header1
+{
+	height: 65vh;
+    opacity: 0.8;
+    background-image: url("data/images/macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+	
+}
+
+/*horizontal list*/
+.unordered-list
+{
+	list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+
+}
+
+
+.unordered-list li
+{
+	display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.unordered-list a
+{	
+	color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a
+{
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover
+{
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+/*.unordered-list a:hover
+{
+
+	text-decoration: underline;
+	color:lightgrey;
+	transition:color 0.5s, border-bottom 4s;
+}*/
+
+.text-center
+{
+	text-align: center;
+}
+
+#name-social-container
+{
+    margin-top: 50px;
+}
+#name
+{
+	margin-bottom:22px;
+}
+.my-name
+{
+	font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+
+}
+
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+#about
+{
+	width:100%;
+	height:auto;
+	position: relative;
+
+}
+.introduction
+{
+	font-size: 1.1rem;
+	display: inline-block;
+	margin-left: 27vw;
+	margin-right: 27vw;
+	color:grey;
+	text-align: justify;
+	font-family: sans-serif;
+	word-spacing: 1px;
+	line-height: 1.4;
+}
+.about-img
+{
+	display: block;
+	width:12rem;
+	height: 12rem;
+	border-radius: 50%;
+	position: center;
+	margin-top:-14vh;
+	margin-left:auto;
+	margin-right: auto;
+	border: 2px white solid;
+	box-shadow: 0px 0px 4px 2px lightgrey;
+
+}
+
+/*skills*/
+section
+{
+	width:100%;
+	/*height:75vh;*/
+	display:flex;
+	flex-direction:column;
+	/*margin-bottom:30px;*/
+	align-items: center;
+}
+
+section:nth-child(2n)
+{
+	background-color:#9e9b9b29;
+}
+
+section:nth-child(2n+1)
+{
+	background-color:white;
+}
+
+.mb75px
+{
+	margin-bottom:75px;
+}
+
+.section-heading
+{
+	width:auto;
+	padding:20px 10px 10px;
+	/*margin:10px auto;*/
+	font-weight:400;
+	margin-bottom: 15px;
+	
+
+}
+.section-heading span
+{
+	font-size: 35px;
+	color:#2857a4;
+	display: inline-block;
+	margin-right: 0.5rem;
+	padding-top: 10px;
+
+}
+.skills-display
+{
+	width: 75%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill-progress
+{
+	 width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+	/*border:0.5px solid black;*/
+
+}
+.skill-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+/*skills name*/
+.skill-name span
+{
+	color: white;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    vertical-align: middle;
+	/*padding-bottom: 5px;*/
+}
+
+/*colors*/
+.mb-blue
+{
+	background-color: #2857a4;
+}
+
+.mb-orange
+{
+	background-color: orange;
+}
+.mb-green
+{
+	background-color: green;
+}
+.mb-light-purple
+{
+	background-color: #6a0dad;
+}
+.mb-teal
+{
+	background-color: teal;
+}
+.mb-teal
+{
+	background-color: blue;
+}
+
+
+
+/*percent class*/
+.eighty-five-percent
+{
+	/*flex-wrap: wrap-reverse;
+    align-items: center;
+    display: flex;
+    flex-direction: row;*/
+    width: 85%;
+    height: inherit;
+}
+.seventy-five-percent
+{
+	/*flex-wrap: wrap-reverse;
+    align-items: center;
+    display: flex;
+    flex-direction: row;*/
+    width: 75%;
+    height: inherit;
+}
+.eighty-percent
+{
+	/*flex-wrap: wrap-reverse;
+    align-items: center;
+    display: flex;
+    flex-direction: row;*/
+    width: 80%;
+    height: inherit;
+}
+.fifty-percent
+{
+	/*flex-wrap: wrap-reverse;
+    align-items: center;
+    display: flex;
+    flex-direction: row;*/
+    width: 50%;
+    height: inherit;
+}
+
+/*portfolio */
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.portfolio-image {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio-image:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+
+/*contact*/
+#contact
+{
+	background-image:linear-gradient(to right,#2857a4,#403066);
+	color:white;
+	width:auto;
+	padding:20px 10px 10px;
+	/*margin:10px auto;*/
+	font-weight:350;
+	margin-bottom: 15px;
+}
+.contact h1
+{
+	color:white;
+
+}
+.contact span
+{
+	font-size: 35px;
+	color:white;
+	display: inline-block;
+	margin-right: 0.5rem;
+	padding-top: 10px;
+
+}
+.contact-container
+{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-bottom:50px;
+}
+.information
+{
+	width:50%;
+	margin-right:90px;
+}
+.mb60px
+{
+	margin-bottom: 50px;
+}
+input.message
+{
+	padding-bottom:14px;
+}
+button
+{
+	padding:5px;
+	background-color: transparent;
+	color:white;
+	border:1px solid white;
+	text-align: center;
+	align-self: center;
+	margin-left:27%;
+
+}
+button:hover
+{
+	box-shadow: grey;
+}
+
+form
+{
+	margin-top:30px;
+}
+form input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    width:100%;
+    caret-color:white;
+    margin:0px 0px 16px 0px;
+    color:white;
+}
+textarea
+{
+	background-color: transparent;
+	color:white;
+	border:none;
+	border-bottom:1px solid white;
+	width:100%;
+	margin-bottom:34px;
+}
+.message::-webkit-input-placeholder {
+   padding-top: 40px;
+}
+textarea:focus
+{
+	outline:none;
+}
+input:focus {
+    outline:none;
+}
+
+.address div
+{
+	font-weight: 10%;
+	font-size: 15px;
+	letter-spacing: 1px;
+	/*padding-bottom: 20px;*/
+	margin-bottom: 20px;
+}
+.address span:hover
+{
+	text-decoration: underline;
+}
+.mt
+{
+	/*margin-top:20px;*/
+}
+
+.myemail:hover{
+	text-decoration: underline;
+}
+.mail-icon
+{
+	margin-left:-3px;
+
+}
+
+/*work experience*/
+/*#experience
+{
+	margin-bottom: 90px;
+}*/
+.timeline
+{
+	width:75%;
+	position:relative;
+	/*border:2px solid black;*/
+}
+.timeline-boxes
+{
+	position:relative;
+	left:5%;
+	width:35%;
+	min-height:150px;
+	/*border:1px solid black;*/
+	margin:5px;
+}
+.timeline-boxes:nth-child(2n)
+{
+	left: 53%;
+}
+.timeline-boxes img
+{
+	height:2em;
+	position:relative;
+	/*top:10px;*/
+	width:2em;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-right:60%;
+}
+.heading
+{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:0 5px 0 5px;
+
+}
+.project-heading
+{
+	/*display:inline-block;*/
+	position:relative;
+	right:0%;
+	font-weight: 200%;
+	font-size:18px;
+	color:#2857a4;
+	margin-bottom:1px;
+	text-align:right;
+}
+.organization
+{
+	font-weight: 100%;
+	font-size: 15px;
+	color:rgb(221,102,32);
+	text-align:right;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.time-duration
+{
+	font-size:12px;
+	margin-top:0px;
+	text-align:right;
+	color:grey;
+}
+.description
+{
+	font-size: 1.1rem;
+	/*display: inline-block;*/
+	/*margin-left: 27vw;*/
+	/*margin-right: 27vw;*/
+	color:black;
+	text-align: justify;
+	font-family: sans-serif;
+	font-style: italic;
+	word-spacing: 1px;
+	line-height: 1.4;
+
+}
+#tamkang-university img
+{
+	height:2em;
+	position:relative;
+	/*top:10px;*/
+	width:2.7em;
+	border-radius: 50%;
+	margin-left:-3px;
+	margin-top: 15px;
+	/*margin-right:60%;*/
+
+}
+#tamkng-university p h4
+{
+	text-align:left;
+	margin-right: 60%;
+}
+#tamkang
+{
+	flex-flow: row-reverse;
+}
+.timeline-divider
+{
+	position: absolute;
+	left:47%;
+	height:75%;
+	width:0;
+	border:1.5px dashed darkblue;
+	top:10%;
+}
+
+.project-heading-right
+{
+	/*display:inline-block;*/
+	position:relative;
+	right:0%;
+	font-weight: 200%;
+	font-size:18px;
+	color:#2857a4;
+	margin-bottom:1px;
+	text-align:left;
+}
+.organization-right
+{
+	font-weight: 100%;
+	font-size: 15px;
+	color:rgb(221,102,32);
+	text-align:left;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.time-duration-right
+{
+	font-size:12px;
+	margin-top:0px;
+	text-align:left;
+	color:grey;
+}
+.timeline-traveller
+{
+	position:sticky;
+	top:25%;
+	transform:rotate(90deg);
+	z-index: 2;
+}
+.timeline-boxes:nth-child(2n+1)::after
+{
+	content:'';
+	position:absolute;
+	height:0.7rem;
+	width:0.7rem;
+	border-radius:50%;
+	background-color:#8bc34a;
+	top:40%;
+	right:-20.7%;
+	z-index: 1;
+}
+
+.timeline-boxes:nth-child(2n)::after
+{
+	content:'';
+	position:absolute;
+	height:0.7rem;
+	width:0.7rem;
+	border-radius:50%;
+	background-color:#8bc34a;
+	top:40%;
+	left:-20.4%;
+	z-index: 1;
+}
+.mb90px
+{
+	margin:50px 0px 60px 0;
+}
+@media screen and (max-width:600px)
+{
+	.timeline-divider
+	{
+		left:8%;
+	}
+	.timeline-boxes
+	{
+		left:20%;
+		width:80%;
+	}
+	.timeline-boxes:nth-child(2n)
+	{
+		left:20%;
+		width:80%;
+	}
+
+	.timeline-boxes::after
+	{
+		left:-18.5% !important;
+	}
+	html
+	{
+		font-size:15px;
+	}
+}
+@media screen and (max-width:700px)
+{
+	.my-name
+	{
+		font-size:2rem;
+	}
+}
+
+
+/*.myinformation
+{
+	padding-bottom:20px;
+	/*margin-bottom:50px;*/
+/*}*/
+
