@@ -311,6 +311,7 @@ section:nth-child(2n+1)
 	left:0;
 	height:100%;
 	width:100%;
+	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	border:1px solid black;
 	overflow: hidden;
