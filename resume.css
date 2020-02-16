@@ -287,7 +287,7 @@ section:nth-child(2n+1)
 	flex-direction: row;
     flex-wrap: wrap;
     padding: 40px 100px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 	justify-content: space-around;
 	
 }
@@ -347,8 +347,8 @@ section:nth-child(2n+1)
 	
 	background-image:url("data/images/comin-soon.png");
 	background-size: contain;
-	margin-top: 1rem;
-	margin-left: 1.8rem;
+	/* margin-top: 1rem;
+	margin-left: 1.8rem; */
 	background-repeat: no-repeat;
 	
 }
@@ -577,10 +577,10 @@ input:focus {
 {
 	text-decoration: underline;
 }
-.mt
+/* .mt
 {
 	/*margin-top:20px;*/
-}
+/* }  */
 
 .myemail:hover{
 	text-decoration: underline;
